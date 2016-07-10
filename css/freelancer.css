@@ -35,14 +35,14 @@ hr.star-light,
 hr.star-primary {
   padding: 0;
   border: none;
-  border-top: solid 5px;
+  border-top: solid 1px;
   text-align: center;
-  max-width: 250px;
+  max-width: 450px;
   margin: 25px auto 30px;
 }
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f005";
+  content: "\f0ac";
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
