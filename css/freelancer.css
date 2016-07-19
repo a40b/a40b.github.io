@@ -4,11 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  background-color: ivory;
 }
 p {
   font-size: 20px;
+  line-height: 1.7;
 }
 p.small {
   font-size: 16px;
@@ -18,7 +20,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #c9ae52;
   outline: none;
 }
 h1,
@@ -27,9 +29,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Sans Pro", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Droid Serif", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 200;
+}
+h2 {
+    font-size: 3.5em;
 }
 hr.star-light,
 hr.star-primary {
@@ -54,14 +59,13 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
   color: white;
 }
 hr.star-primary {
   border-color: #2C3E50;
 }
 hr.star-primary:after {
-  background-color: white;
+  background-color: ivory;
   color: #2C3E50;
 }
 .img-centered {
@@ -69,8 +73,6 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
-  color: white;
 }
 header .container {
   padding-top: 100px;
@@ -80,9 +82,11 @@ header img {
   display: block;
   margin: 0 auto 20px;
 }
+header .intro-text {
+    margin-bottom: 8em;
+}
 header .intro-text .name {
   display: block;
-  font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
   font-weight: 200;
   font-size: 2em;
@@ -93,19 +97,28 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
+    padding-top: 300px;
     padding-bottom: 100px;
   }
   header .intro-text .name {
     font-size: 4.75em;
   }
   header .intro-text .skills {
-    font-size: 1.75em;
+    font-size: 2.5em;
   }
 }
+
+#ourMission {
+    margin-bottom: 15em;
+}
+
+#ourMission p {
+    font-size: 2em;
+    margin: 1em 0;
+}
+
 .navbar-custom {
   background: #2C3E50;
-  font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   border: none;
@@ -114,8 +127,7 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: white;
-  font-family: "Source Sans Pro", sans-serif;
+  color: #c9ae52;
   font-weight: 200;
 }
 .navbar-custom .navbar-brand:hover,
@@ -132,7 +144,7 @@ header .intro-text .skills {
   font-size: 1.3em;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #c9ae52;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -141,13 +153,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #c9ae52;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #c9ae52;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -157,9 +169,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #c9ae52;
   color: white;
-  border-color: #18BC9C;
+  border-color: #c9ae52;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -182,15 +194,13 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 40px 0;
 }
 section h2 {
   margin: 0;
-  font-size: 3em;
+  font-size: 3.5em;
 }
 section.success {
-  background: #18BC9C;
-  color: white;
 }
 @media (max-width: 767px) {
   section {
@@ -292,7 +302,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #c9ae52;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -326,7 +336,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #c9ae52;
   background: white;
   border: solid 2px white;
 }
@@ -342,8 +352,8 @@ footer .footer-below {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #1a242f;
-  border-color: #161f29;
+  background-color: #2c3e50;;
+  border-color: #2c3e50;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -374,8 +384,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #c9ae52;
+  border-color: #c9ae52;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -384,7 +394,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
+  background-color: #2c3e50;
   border-color: #11866f;
 }
 .btn-success:active,
@@ -407,11 +417,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #c9ae52;
+  border-color: #c9ae52;
 }
 .btn-success .badge {
-  color: #18BC9C;
+  color: #c9ae52;
   background-color: white;
 }
 .btn-social {
