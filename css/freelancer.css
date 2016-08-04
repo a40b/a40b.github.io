@@ -88,7 +88,6 @@ header .intro-text {
 }
 header .intro-text .name {
   display: block;
-  text-transform: uppercase;
   font-weight: 200;
   font-size: 2em;
 }
@@ -130,6 +129,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-brand {
   color: #c9ae52;
   font-weight: 200;
+  text-transform: none;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
