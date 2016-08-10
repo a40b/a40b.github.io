@@ -7,5 +7,5 @@ exclude:   [ README.md, Gemfile, .*, bower.json ]
 # Setup
 title: "AccelerateIDB"
 tagline: ""
-url: http://accelerateidb.com
-baseurl: "http://accelerateidb.com"
+url: https://a40b.github.io
+baseurl: "https://a40b.github.io"
