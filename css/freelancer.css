@@ -63,7 +63,7 @@ hr.star-light:after {
   color: white;
 }
 hr.star-primary {
-  border-color: #ce2b37;
+  border-color: #333;
 }
 hr.star-primary:after {
   background-color: ivory;
