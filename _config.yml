@@ -1,7 +1,7 @@
 safe:      true
 permalink: date
 markdown:  redcarpet
-highlighter: pygments
+highlighter: rouge
 exclude:   [ README.md, Gemfile, vendor, .*, bower.json ]
 
 # Setup
