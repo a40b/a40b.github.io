@@ -5,7 +5,7 @@ highlighter: rouge
 exclude:   [ README.md, Gemfile, .*, bower.json ]
 
 # Setup
-title: "AccelerateIDB"
+title: "AccelerateIBD"
 tagline: ""
 url: https://a40b.github.io
 baseurl: "https://a40b.github.io"
