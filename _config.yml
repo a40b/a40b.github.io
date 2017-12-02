@@ -7,3 +7,5 @@ exclude:   [ README.md, Gemfile, .*, bower.json ]
 # Setup
 title: "AccelerateIBD"
 tagline: ""
+url: https://a40b.github.io
+baseurl: "https://a40b.github.io"
